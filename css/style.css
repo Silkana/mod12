@@ -1,0 +1,214 @@
+/**************************************
+GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL* 
+***************************************/
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../img/fond.png");
+}
+
+
+
+#titreetbg {
+	background-image: url("../img/bg_header.png");
+	background-position: -321px -100px;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	max-width: 1100px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: "bree serif";
+	font-size: 3em;
+	text-align: center;
+	color: white;
+	padding: 15% 0 5%;
+}
+
+.round{
+    overflow:hidden;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    border-radius:50px;
+    width:70px;
+    height:70px;
+    margin: 50px 0 0 0;
+    background-color: #EFF1F0;
+    border: solid 3px #DCDEDD;
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+}
+
+main .fa {
+	margin-top: 16px;
+	font-size: 1em;
+	color: grey;
+}
+
+p {
+	line-height: 1.8;
+	color: #959595;
+	font-family: "bree serif";
+	margin-bottom: 50px;
+}
+
+/**************************************
+HEADER   HEADER   HEADER   HEADER     * 
+***************************************/
+li .fa {
+	display: block;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 40px;
+	font-family: "bree serif";
+	color: grey;
+}
+
+nav ul {
+	text-align: right;
+	padding: 2em;
+
+}
+
+header img:first-child {
+	width:6%;
+	float: left;
+	position: relative;
+	top: 20px;
+}
+
+button {
+	background-color: #D80A52;
+	font-family: "bree serif";
+	color: white;
+	padding: 20px;
+	margin-bottom: 150px;
+	border-radius: 10px;
+	border: none;
+
+
+}
+
+header p {
+	color: #FBFFF1;
+	font-size: 1.1em;
+}
+
+span {
+	float: left;
+	display: inline-block;
+	font-family: "bree serif";
+	font-size: 2em;
+	color: grey;
+	position: relative;
+	top: 31px;
+	right: -20px;
+}
+
+/**************************************
+MAIN   MAIN   MAIN   MAIN  MAIN  MAIN * 
+***************************************/
+
+h2 {
+	font-family: "bree serif";
+	font-size: 2em;
+	color: #FB2257;
+	text-align: center;
+	padding: 25px 0 30px;
+	border-bottom: solid 2px #DCDEDD;
+}
+
+h3 {
+	font-family: "bree serif";
+	font-size: 1.5em;
+	color: #FB2257;
+	padding: 40px 0 0 0;
+
+}
+
+.smallarticle {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+}
+
+main section:first-child {
+	text-align: center;
+}
+
+main section {
+	padding: 0 25px 0 25px;
+}
+
+main p {
+	margin: 40px 0 15px 0;
+}
+
+main img {
+	width: 50%;
+	float: right;
+	margin: 45px 0px 0px 0px;
+}
+
+.inversion {
+	float: left;
+	margin-right: 15px;
+}
+
+input, textarea {
+	border: 1px solid grey;
+	border-radius: 70px;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+input {
+	display: inline-block;
+	width: 49%;
+}
+
+input:first-child {
+	margin-right: 20px;
+}
+
+#name {
+	background: url(../img/bg_form_name.svg) no-repeat 6px 4px;
+	background-size: 39px;
+	text-indent: 40px;
+}
+
+#mail{
+	background: url(../img/bg_form_mail.svg) no-repeat 6px 4px;
+	background-size: 39px;
+	text-indent: 40px;
+}
+
+#message{
+	background: url(../img/bg_form_message.svg) no-repeat 7px 6px;
+	background-size: 62px;
+	display: block;
+	padding: 17px;
+	width: 100%;
+	padding: 13px 25px 17px 75px;
+	width: 100%;
+}
+
+#canvastriangle {
+display: block;
+margin: 0 auto;
+}
